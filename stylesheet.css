@@ -4,8 +4,10 @@ h1{
 .bildeoverskrift{
     position: relative;
 }
-.bilde{
+.bildeoverskrift img{
     margin: 1px 1px 2px 0px;
+    height: 855px;
+    width: 1600px;
 }
 .venstreTekst{
     position: absolute;
