@@ -8,6 +8,8 @@ h1{
     margin: 1px 1px 2px 0px;
     height: 855px;
     width: 1600px;
+    display:block;
+    margin:0 auto;
 }
 .venstreTekst{
     position: absolute;
@@ -22,14 +24,16 @@ h1{
     bottom: 15px;
     left: 1380px;
     color: rgb(255, 255, 255);
-    max-width: 200px;
+    max-width: 300px;
 }
 .hovedoverskrift{
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0); 
-    bottom: 0px;
-    left: 0px;
+    text-align:justify;
+    width:1600px;
+    position:relative;
+    margin:0 auto;
 }
 .column{
     float: left;
