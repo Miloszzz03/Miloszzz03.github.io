@@ -52,7 +52,6 @@ h1{
   }
 .content{
     line-height: 0;
-    word-spacing: -.31em;
     display: inline-block;
     margin: 30px 2% 0 2%;
 }
