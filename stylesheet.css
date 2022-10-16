@@ -1,3 +1,24 @@
 h1{
-font-size:40px;
+    font-size:40px;
+}
+.bildeoverskrift{
+    position: relative;
+}
+.bilde{
+
+}
+.venstreTekst{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(255, 255, 255);
+}
+.høyereTekst{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: rgb(255, 255, 255);
+}
+.hovedoverskrift{
+
 }
