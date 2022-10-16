@@ -1,5 +1,5 @@
 h1{
-    font-size:40px;
+    font-size:50px;
 }
 .bildeoverskrift{
     position: relative;
@@ -15,6 +15,7 @@ h1{
     left: 16px;
     color: rgb(255, 255, 255);
     max-width: 390px;
+    font-size: 30px;
 }
 .høyereTekst{
     position: absolute;
@@ -27,7 +28,8 @@ h1{
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0); 
-
+    bottom: 0px;
+    left: 0px;
 }
 .column{
     float: left;
@@ -36,6 +38,18 @@ h1{
     width: 75%;
   }
   
-  .right {
+.right {
     width: 25%;
+  }
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    background-color: aqua;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
