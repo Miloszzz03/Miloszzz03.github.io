@@ -14,12 +14,14 @@ h1{
     top: 8px;
     left: 16px;
     color: rgb(255, 255, 255);
+    max-width: 390px;
 }
 .høyereTekst{
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 15px;
+    left: 1380px;
     color: rgb(255, 255, 255);
+    max-width: 200px;
 }
 .hovedoverskrift{
     position: absolute;
