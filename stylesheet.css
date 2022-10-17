@@ -87,7 +87,7 @@ h1{
     display: inline-block;
     padding: 0;
     vertical-align: top;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 .bildetekst{
     display: inline-block;
@@ -133,4 +133,10 @@ h1{
     margin: 0;
     vertical-align: top;
     font-size: 12px
+}
+#circle{
+    color: rgb(34, 165, 218);
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
 }
